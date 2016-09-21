@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+>
+  <LinearLayout android:orientation="vertical"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+  >
+    <TextView style="@style/help_cat"  android:text="@string/pref_cat_notification_layout" />
+    <View style="@style/help_cat_post_margin" />
+    <TextView style="@style/help_pref" android:text="@string/pref_use_system_notification_layout" />
+    <TextView style="@style/help_text" android:text="@string/pref_use_system_notification_layout_help" />
+
+    <TextView style="@style/help_cat"  android:text="@string/pref_cat_notification_content" />
+    <View style="@style/help_cat_post_margin" />
+    <TextView style="@style/help_pref" android:text="@string/pref_icon_area_content" />
+    <TextView style="@style/help_text" android:text="@string/pref_icon_area_content_help" />
+    <TextView style="@style/help_pref" android:text="@string/pref_top_line_content" />
+    <TextView style="@style/help_text" android:text="@string/pref_top_line_content_help" />
+    <TextView style="@style/help_pref" android:text="@string/pref_bottom_line_content" />
+    <TextView style="@style/help_text" android:text="@string/pref_bottom_line_content_help" />
+    <TextView style="@style/help_pref" android:text="@string/pref_time_remaining_verbosity" />
+    <TextView style="@style/help_text" android:text="@string/pref_time_remaining_verbosity_help" />
+    <TextView style="@style/help_pref" android:text="@string/pref_status_duration_in_vital_signs" />
+    <TextView style="@style/help_text" android:text="@string/pref_status_duration_in_vital_signs_help" />
+
+    <TextView style="@style/help_cat"  android:text="@string/pref_cat_notification_appearance" />
+    <TextView style="@style/help_text" android:text="@string/pref_cat_notification_appearance_help" />
+
+    <View style="@style/help_cat_pre_margin" />
+    <TextView style="@style/help_cat"  android:text="@string/pref_cat_notification_priority" />
+    <TextView style="@style/help_text" android:text="@string/pref_cat_notification_priority_help" />
+    <TextView style="@style/help_pref" android:text="@string/pref_main_notification_priority" />
+    <TextView style="@style/help_text" android:text="@string/pref_main_notification_priority_help" />
+  </LinearLayout>
+</ScrollView>

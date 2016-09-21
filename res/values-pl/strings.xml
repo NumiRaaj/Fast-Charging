@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_full_name" formatted="false">BatteryBot Pro</string>
+  <string name="app_launcher_name" formatted="false">BatteryBot</string>
+  <string name="settings_activity_subtitle" formatted="false">Ustawienia</string>
+  <string name="help_activity_subtitle" formatted="false">Pomoc</string>
+  <string name="log_view_activity_subtitle" formatted="false">Logi</string>
+  <string name="app_full_name_free" formatted="false">BatteryBot</string>
+  <string name="battery_use_b" formatted="false">Sprawdź zużycie baterii</string>
+  <string name="upgrade_donate_b" formatted="false">Ulepsz/Wspomóż...</string>
+  <string name="confirm_disable_hint" formatted="false">Podpowiedź: To potwierdzenie możesz wyłączyć w ustawieniach.</string>
+  <string name="yes" formatted="false">Tak</string>
+  <string name="cancel" formatted="false">Anuluj</string>
+  <string name="confirm_close" formatted="false">Zamknąć?</string>
+  <string name="confirm_close_hint" formatted="false">Battery Indicator zostanie zamknięty i nie będziesz widział statusu w powiadomieniach.\n\nJeżeli chcesz widzieć status, zostaw program uruchomiony naciskając Anuluj a następnie przycisk Wstecz.</string>
+  <string name="confirm_clear_logs" formatted="false">Usunąć wszystkie logi?</string>
+  <string name="configure_log_filter" formatted="false">Co pokazać w dzienniku?</string>
+  <string name="confirm_ten_percent_enable" formatted="false">Włączyć tryb 10%?</string>
+  <string name="confirm_ten_percent_disable" formatted="false">Wyłączyć tryb 10%</string>
+  <string name="confirm_ten_percent_hint" formatted="false">Uwaga: Zmiana tego ustawienia (zarówno włączenie jak i wyłączenie) zresetuje ustawienia koloru.\n\nJeżeli posiadasz Motorolę Droid, Droid X, Droid 2, Defy, lub Samsunga Moment, przy pierwszym uruchomieniu aplikacji powinieneś włączyć i zostawić tę opcję. Użytkownicy pozostałych urządzeń powinni zostawić opcję wyłączoną.</string>
+  <string name="okay" formatted="false">OK</string>
+  <string name="none" formatted="false">Żaden</string>
+  <string name="tab_current_info" formatted="false">Aktualny stan</string>
+  <string name="tab_history" formatted="false">Historia</string>
+  <string name="notification_until_charged" formatted="false">" do naładowania"</string>
+  <string name="notification_until_drained" formatted="false">" pozostało"</string>
+  <string name="activity_until_charged" formatted="false">do naładowania</string>
+  <string name="activity_until_drained" formatted="false">do rozładowania</string>
+  <string name="menu_settings" formatted="false">Ustawienia</string>
+  <string name="menu_close" formatted="false">Zamknij</string>
+  <string name="menu_help" formatted="false">Pomoc</string>
+  <string name="menu_rate_and_review" formatted="false">Oceń i zrecenzuj</string>
+  <string name="menu_clear" formatted="false">Wyczyść</string>
+  <string name="menu_reverse" formatted="false">Odwróć kolejność</string>
+  <string name="menu_log_filter" formatted="false">Filtruj</string>
+  <string name="menu_export" formatted="false">Eksport do CSV</string>
+  <string name="menu_delete_alarm" formatted="false">Usuń alarm</string>
+  <string name="menu_get_plugins" formatted="false">Pobierz wtyczki</string>
+  <string name="percent_symbol" formatted="false">%</string>
+  <string name="degree_symbol" formatted="false">°</string>
+  <string name="fahrenheit" formatted="false">Fahrenheit</string>
+  <string name="fahrenheit_symbol" formatted="false">F</string>
+  <string name="celsius" formatted="false">Celcjusz</string>
+  <string name="celsius_symbol" formatted="false">C</string>
+  <string name="volt_symbol" formatted="false">V</string>
+  <string name="fully_charged_in" formatted="false">W pełni naładowana w:</string>
+  <string name="light_usage" formatted="false">Lekkie użytk., pozostało:</string>
+  <string name="normal_usage" formatted="false">Normalne użytk., pozostało:</string>
+  <string name="heavy_usage" formatted="false">Mocne użytk., pozostało:</string>
+  <string name="constant_usage" formatted="false">Ciągłe użytk., pozostało:</string>
+  <string name="press_back_to_leave" formatted="false">Naciśnij WSTECZ aby wyjść.</string>
+  <string name="press_menu_for_more" formatted="false">Naciśnij MENU dla więcej opcji.</string>
+  <string name="inaccessible_storage" formatted="false">Karta SD jest niedostępna.</string>
+  <string name="inaccessible_w_reason" formatted="false">Karta SD jest niedostępna:</string>
+  <string name="read_only_storage" formatted="false">Karta SD jest w trybie tylko do odczytu.</string>
+  <string name="file_written" formatted="false">Plik został zapisany na Kartę SD.</string>
+  <string name="date" formatted="false">data</string>
+  <string name="time" formatted="false">czas</string>
+  <string name="status" formatted="false">status</string>
+  <string name="charge" formatted="false">poziom_naładowania</string>
+  <string name="temperature" formatted="false">stopni_celcjusza</string>
+  <string name="temperature_f" formatted="false">stopni_fahrenheita</string>
+  <string name="voltage" formatted="false">woltów</string>
+  <string name="status_unplugged" formatted="false">Odłączony</string>
+  <string name="status_unknown" formatted="false">Nieznany</string>
+  <string name="status_charging" formatted="false">Ładowanie</string>
+  <string name="status_discharging" formatted="false">Rozładowanie</string>
+  <string name="status_not_charging" formatted="false">Nie ładuje</string>
+  <string name="status_fully_charged" formatted="false">W pełni naładowany</string>
+  <string name="status_plugged_in" formatted="false">Podłączony</string>
+  <string name="health_unknown" formatted="false">Nieznany</string>
+  <string name="health_good" formatted="false">Zdrowa</string>
+  <string name="health_overheat" formatted="false">Przegrzana</string>
+  <string name="health_dead" formatted="false">Martwa</string>
+  <string name="health_overvoltage" formatted="false">Przeładowana</string>
+  <string name="health_failure" formatted="false">Defekt</string>
+  <string name="health_cold" formatted="false">Zimna</string>
+  <string name="plugged_unplugged" formatted="false">Odłączony</string>
+  <string name="plugged_ac" formatted="false">(AC)</string>
+  <string name="plugged_usb" formatted="false">(USB)</string>
+  <string name="plugged_unknown" formatted="false">(?)</string>
+  <string name="plugged_wireless" formatted="false">(WL)</string>
+  <string name="alarm_type_fully_charged" formatted="false">W pełni naładowana</string>
+  <string name="alarm_type_charge_drops" formatted="false">Poziom spadł poniżej</string>
+  <string name="alarm_type_charge_rises" formatted="false">Poziom wzrósł powyżej</string>
+  <string name="alarm_type_temperature_rises" formatted="false">Temperatura wzrosła powyżej</string>
+  <string name="alarm_type_health_failure" formatted="false">Defekt zdrowia</string>
+  <string name="alarm_type_entry_fully_charged" formatted="false">W pełni naładowana</string>
+  <string name="alarm_type_entry_charge_drops" formatted="false">Poziom spadł poniżej...</string>
+  <string name="alarm_type_entry_charge_rises" formatted="false">Poziom wzrósł powyżej</string>
+  <string name="alarm_type_entry_temperature_rises" formatted="false">Temperatura wzrosła powyżej...</string>
+  <string name="alarm_type_entry_health_failure" formatted="false">Defekt zdrowia</string>
+  <string name="alarm_fully_charged" formatted="false">Bateria jest w pełni naładowana.</string>
+  <string name="alarm_charge_drops" formatted="false">"Stan baterii jest poniżej "</string>
+  <string name="alarm_charge_rises" formatted="false">"Stan baterii jest powyżej "</string>
+  <string name="alarm_temp_rises" formatted="false">"Temp. baterii jest powyżej "</string>
+  <string name="alarm_health_failure" formatted="false">"Stan zdrowia baterii: "</string>
+  <string name="alarm_text" formatted="false">Edytuj alarmy.</string>
+  <string name="logs_empty" formatted="false">Brak logów</string>
+  <string name="after_n_hours_unplugged" formatted="false">Po %1.1f godzinach odłączono</string>
+  <string name="after_n_hours_plugged_in" formatted="false">Po %1.1f godzinach podłączono</string>
+  <string name="discharging_from" formatted="false">Rozładowywanie od</string>
+  <string name="charging_from" formatted="false">Ładowanie od</string>
+  <string name="fully_charged" formatted="false">W pełni naładowana</string>
+  <string name="since" formatted="false">Od</string>
+  <string name="dialog_color_picker" formatted="false">Wybierz kolor</string>
+  <string name="press_color_to_apply" formatted="false">Zastosuj stary lub nowy kolor:</string>
+  <string name="currently_using" formatted="false">W użyciu</string>
+  <string name="currently_set_to" formatted="false">"Ustawione na: "</string>
+  <string name="currently_disabled" formatted="false">Wyłączone</string>
+  <string name="help_cat_version" formatted="false">Wersja</string>
+  <string name="help_cat_changelog" formatted="false">Lista zmian</string>
+  <string name="help_changelog" formatted="false">Zobacz <a href="https://www.batterybot.info/changelog">listę zmian online</a></string>
+  <string name="help_cat_no_warranty" formatted="false">Brak gwarancji</string>
+  <string name="help_no_warranty" formatted="false">Ten program jest wydany z nadzieją, że będzie użyteczny, ale BEZ ŻADNEJ GWARANCJI.\n\nZ czasem gdy robię co mogę by aplikacja działała i nie powodowała żadnych problemów, nie jestem odpowiedzialny za jakiekolwiek zniszczenia urządzenia spowodowane niewłaściwym użytkowaniem aplikacji.</string>
+  <string name="help_cat_acknowledgments" formatted="false">Uznania</string>
+  <string name="help_acknowledgments" formatted="false">Aplikacja byłaby dostępna tylko po angielsku gdyby nie wsparcie tłumaczy wolontariuszy. Dzięki!\n\nWielkie dzięki dla Google i innych programistów open-source którzy stworzyli Androida, i bez których ta aplikacja by nie zaistniała.\n\nIkona launchera (prawa górna, którą widzisz w Markecie) jest na bazie ikony z <a href="http://www.oxygen-icons.org">tematu Oxygen icons</a> i użyta na licencji <a href="http://creativecommons.org/licenses/by- sa/3.0/">Creative Common Attribution-ShareAlike 3.0</a>.</string>
+  <string name="help_cat_translations" formatted="false">Tłumaczenia</string>
+  <string name="help_translations" formatted="false">Potrzebuje pomocy z przetłumaczeniem tej apki na inne języki. Jeżeli chciałbyś pomóc, wyslij <a href="mailto:support%2Btranslations@batterybot.info">email</a> (ten adres jest tylko do korespondencji nt. tłumaczenia; zobacz sekcję Kontakt poniżej dla dalszych informacji). Daj mi znać czy chcesz, by Twoje imię w uznaniu za pomoc zostało wymienione w tej sekcji.</string>
+  <string name="help_subcat_translators" formatted="false">Tłumacze</string>
+  <string name="help_cat_contact" formatted="false">Kontakt</string>
+  <string name="help_contact" formatted="false">Jeśli masz pytanie, problem lub uwagi, proszę <a href="mailto:support@batterybot.info">napisz do mnie</a>.</string>
+  <string name="pref_hint" formatted="false">Podpowiedź: Naciśnij MENU po pomoc.</string>
+  <string name="settings_overview" formatted="false">Przegląd</string>
+  <string name="settings_overview_help" formatted="false">Ustawienia są posegregowane na 4 osobne strony. Każda strona ma własną pomoc, która opisuje ustawienia na niej. Po prostu naciśnij MENU a następnie Pomoc (na tabletach MENU nie jest wymagane) aby ją uzyskać.</string>
+  <string name="notification_settings" formatted="false">Główne powiadomienia</string>
+  <string name="notification_settings_summary" formatted="false">Skonfiguruj główne powiadomienia.</string>
+  <string name="notification_settings_help" formatted="false">Możesz skonfigurować treść, którą widać po rozwinięciu w notyfikacjach i zmieniać jej wygląd.</string>
+  <string name="status_bar_icon_settings" formatted="false">Ikona paska stanu</string>
+  <string name="status_bar_icon_settings_summary" formatted="false">Zmień zestaw ikon</string>
+  <string name="status_bar_icon_settings_help" formatted="false">Możesz wybrać, który zestaw ikon chcesz używać i zmieniać ustawienia dla danego zestawu ikon (np. kolorów).</string>
+  <string name="alarm_settings_subtitle" formatted="false">Ustawienia alarmów</string>
+  <string name="alarm_settings" formatted="false">Alarmy</string>
+  <string name="alarm_settings_summary" formatted="false">Ustaw powiadomienia o niskim/pełnym poziomie baterii</string>
+  <string name="alarm_settings_help" formatted="false">Możesz ustawić powiadomienia kiedy poziom baterii osiągnie określony punkt (np. gdy bateria będzie w pełni naładowana, poziom baterii spadnie poniżej 20%, itp).</string>
+  <string name="other_settings" formatted="false">Inne ustawienia</string>
+  <string name="other_settings_help" formatted="false">Wszystkie inne ustawienia, jak logowanie, blok. ekranu czy autostart aplikacji.</string>
+  <string name="pref_cat_more_settings_in_pro" formatted="false">Więcej ustawień w wersji Pro</string>
+  <string name="pref_please_upgrade" formatted="false">Wersja Pro ma wiele innych ustawień, włączając w to kolorowe ikony, wtyczki z ikonami, alarmy, tematy, zapisywanie stanu baterii w logach, auto/ ręczne wyłączenie blokady ekranu, przybliżone czasy ładowania/rozładowania i wiele więcej.</string>
+  <string name="add_alarm" formatted="false">Dodaj alarm</string>
+  <string name="pref_cat_notification_layout" formatted="false">Kompozycja</string>
+  <string name="pref_use_system_notification_layout" formatted="false">Użyj wyglądu systemowego</string>
+  <string name="pref_use_system_notification_layout_summary" formatted="false">Użyć systemowego wyglądu notyfikacji zamiast wyglądu BatteryBot?</string>
+  <string name="pref_use_system_notification_layout_help" formatted="false">Jeśli opcja jest włączona, stosowany będzie wygląd systemowy notyfikacji zamiast niestandardowego układu BatteryBot. Wygląd systemowy jest mniej konfigurowalny, ale niewielka część urządzeń nie zgłasza domyślnych kolorów poprawnie, przez co wygląd jest brzydki lub ciężko cokolwiek odczytać. Inne urządzenia wykorzystują nietypowy wygląd, czyniąc układ niestandardowy zbyt dużym. Wybór tej opcji zapewni, że powiadomienie będzie wyglądać jak te inne.\n\nNote that this will result in having the status bar icon used in the notification.</string>
+  <string name="pref_cat_notification_content" formatted="false">Treść</string>
+  <string name="pref_icon_area_content" formatted="false">Zawartość obszaru ikony</string>
+  <string name="pref_icon_area_content_help" formatted="false">Wybierz co chcesz zobaczyć po lewej stronie powiadomienia w notyfikacjach po rozwinięciu. Możesz wybrać tylko grafikę baterii, tekstowy procent naładowania lub oba w dowolnej kolejności.</string>
+  <string name="battery_graphic" formatted="false">Bateria graficzna</string>
+  <string name="charge_percentage" formatted="false">Procent naładowania</string>
+  <string name="percentage_first" formatted="false">Procent, bateria</string>
+  <string name="battery_first" formatted="false">Bateria, procent</string>
+  <string name="pref_top_line_content" formatted="false">Zawartość górnego wiersza</string>
+  <string name="pref_top_line_content_help" formatted="false">Skonfiguruj co się ma pojawiać w górnym wierszu: szacowany pozostały czas (konfigurowalne w innym miejscu), czas od zmiany stanu (podłączony, odłączony, w pełni naładowany) lub stan baterii (zdrowie baterii, temperatura i napięcie).</string>
+  <string name="pref_bottom_line_content" formatted="false">Zawartość dolnego wiersza</string>
+  <string name="pref_bottom_line_content_help" formatted="false">Masz te same opcje dla dolnej linii, jak dla górnej linii.</string>
+  <string name="time_remaining" formatted="false">Pozostały czas</string>
+  <string name="time_since_status_change" formatted="false">Czas od zmiany stanu</string>
+  <string name="vital_signs" formatted="false">Stan zdrowia</string>
+  <string name="pref_time_remaining_verbosity" formatted="false">Rozwlekłość pozostałego czasu</string>
+  <string name="pref_time_remaining_verbosity_help" formatted="false">Urządzenia są w różnych kształtach i rozmiarach, więc w większości tłumaczeń należy używać skrótów w celu zapewnienia, że pozostały czas mieści się w obszarze powiadomień. Jeśli nadal nie pasuje, można zdecydować się na skrócony format. Jeśli masz dużo miejsca, możesz ustawić rozwlekły.</string>
+  <string name="condensed" formatted="false">Zagęszczony</string>
+  <string name="normal" formatted="false">Normalny</string>
+  <string name="verbose" formatted="false">Rozwlekły</string>
+  <string name="pref_status_duration_in_vital_signs" formatted="false">Czas trwania w stanie zdrowia</string>
+  <string name="pref_status_duration_in_vital_signs_summary" formatted="false">Uwzględnić czas od zmiany stanu w stanie zdrowia?</string>
+  <string name="pref_status_duration_in_vital_signs_help" formatted="false">Jeśli ustawisz, linia stanu zdrowia będzie zawierała również kiedy urządzenie zostało odłączone, podłączone lub w pełni naładowane.</string>
+  <string name="pref_cat_notification_appearance" formatted="false">Wygląd</string>
+  <string name="pref_cat_notification_appearance_help" formatted="false">Możesz zmienić kolory dla tekstu powiadomienia jeśli domyślne są nieczytelne lub jeśli po prostu wolisz coś innego. Możesz również wybrać, zastąpić lub pokazać ramkę wokół obszaru ikon.</string>
+  <string name="pref_notification_percentage_text_color" formatted="false">Kolor procentów</string>
+  <string name="pref_custom_percentage_text_color" formatted="false">Własne kolory procentów</string>
+  <string name="pref_notification_top_line_color" formatted="false">Kolor tekstu górnego wiersza</string>
+  <string name="pref_custom_top_line_color" formatted="false">Własny kolor tekstu górnego wiersza</string>
+  <string name="pref_notification_bottom_line_color" formatted="false">Kolor tekstu dolnego wiersza</string>
+  <string name="pref_custom_bottom_line_color" formatted="false">Własny kolor tekstu dolnego wiersza</string>
+  <string name="pref_show_box_around_icon_area" formatted="false">Pokaż pole wokół obszaru ikony</string>
+  <string name="pref_show_box_around_icon_area_summary" formatted="false">Pokazać kolorowe pole w obszarze ikony?</string>
+  <string name="system_default" formatted="false">Ustawienia domyślne</string>
+  <string name="black" formatted="false">Czarny</string>
+  <string name="white" formatted="false">Biały</string>
+  <string name="ics_blue" formatted="false">Android ICS Niebieski</string>
+  <string name="custom" formatted="false">Własny...</string>
+  <string name="pref_cat_notification_priority" formatted="false">Priorytet powiadomienia</string>
+  <string name="pref_cat_notification_priority_help" formatted="false">Na Jelly Bean i wyżej (Android 4.1 i powyżej), powiadomienia mogą mieć ustawiony priorytet. Efekt(y) zmiany priorytetu nie są gwarantowane, ale ogólnie:\n\n• Ustawienie na \"Minimum\" powinno w większości przypadków usunąć ikonę na pasku stanu, ale wciąż pokazywać powiadomienie w rozwijanym pasku notyfikacji.\n\n• Ustawienie na \"Low\" powinny umożliwić innym powiadamianie (np. nowe wiadomości e-mail) nad powiadomieniem BatteryBot. To jest fajne w przypadkach takich np. jak e-mail, w którym powiadomienie jest rozwijane (rozszerzalne powiadomienia są automatycznie rozwijane, gdy są na górze).\n\nPriorytet \"Default\" zazwyczaj zostawia BatteryBot u samej góry, ale są przypadki, gdzie wyższe priorytety to zmieniają.\n\nPowtarzam, dokładne zachowanie może ulec zmianie i nie jest gwarantowane.</string>
+  <string name="pref_main_notification_priority" formatted="false">Główny priorytet powiadomienia</string>
+  <string name="pref_main_notification_priority_help" formatted="false">Ustaw priorytet głównego powiadomienia. Alarmy, wtyczki oraz wszelkie inne powiadomienia nie mają wpływu na to ustawienie, ale mogą w przyszłości konfigurowalny priorytet.</string>
+  <string name="pref_cat_icon_set" formatted="false">Zestaw ikon</string>
+  <string name="pref_icon_set" formatted="false">Zestaw ikon</string>
+  <string name="pref_icon_set_help" formatted="false">Android jest w wielu wersjach, więc nie istnieje jeden idealny zestaw ikon, który działa dobrze na każdym urządzeniu. Użytkownicy wersji Pro mogą korzystać z wtyczek, aby uzyskać więcej opcji, ale do dyspozycji są trzy wbudowane zestawy ikon, które powinny być chociaż jeden dobrym rozwiązaniem dla praktycznie każdego urządzenia.\n\n\"Klasyczny\" to oryginalny zestaw ikon z 2009 roku. Jest wciąż najlepsza dla starszych urządzeń, ale nowsze wersje Androida (począwszy od Android 3.0, Honeycomb) kurczą i przyciemniają ikony powiadomień, co czyni ten zestaw bardzo trudnym do odczytania.\n\n\"Zwykły numer\" jest domyślne dla wszystkich nowych urządzeń z systemem Android. Jest to bardzo duży biały numer, który jest dobrze widoczny nawet po skurczeniu i przyciemnieniu. Podczas ładowania pod numerkiem pokazuje się \"błyskawica\".\n\n\"Mniejszy numer\" jest jak \"Plain number\" ale mniejszy, bo niektóre nowsze urządzenia nie kurczą ikonek jak seryjny Android i \"Plain number\" robi się bardzo duży.\n\nJeśli masz jakieś wtyczki ikon do BatteryBot Pro zainstalowane (naciśnij przycisk MENU, a następnie Pobierz Wtyczki by otrzymać darmowe wtyczki) to możesz wybrać spośród nich tutaj.</string>
+  <string name="pref_cat_charging_indicator" formatted="false">Wskaźnik naładowania</string>
+  <string name="pref_indicate_charging" formatted="false">Wskaźnik ładowania</string>
+  <string name="pref_indicate_charging_summary" formatted="false">Zmienić wskaźnik w podczas ładowania?</string>
+  <string name="pref_indicate_charging_help" formatted="false">Niektóre zestawy ikon pokazują, gdy akumulator jest w trakcie ładowania, np. pokazując błyskawice pod wskaźnikiem. Wyłącz to ustawienie, jeśli wolisz tego nie robić.</string>
+  <string name="pref_cat_logging" formatted="false">Logowanie</string>
+  <string name="pref_enable_logging" formatted="false">Włącz logowanie</string>
+  <string name="pref_enable_logging_summary" formatted="false">Czy logować zmiany stanu baterii?</string>
+  <string name="pref_enable_logging_help" formatted="false">Jeżeli aktywny, Battery Indicator będzie zapisywał zmiany statusu baterii (np. jeżeli urządzenie zostało w pełni naładowane). Możesz obejrzeć ligi z głównego okna (wciśnij MENU i wybierz Logi; na tabletach, MENU nie jest wymagane).</string>
+  <string name="pref_max_log_age" formatted="false">Maksymalny czas logu</string>
+  <string name="pref_max_log_age_summary" formatted="false">Usuń logi starsze niż:</string>
+  <string name="pref_max_log_age_help" formatted="false">Jeżeli zapisywanie logów jest aktywne, za każdym razem gdy podpinasz urządzenie, logi starsze od tego będą usuwane.</string>
+  <string name="pref_notify_status_duration" formatted="false">Pokaż czas stanu</string>
+  <string name="pref_notify_status_duration_summary" formatted="false">Pokaż czas od kiedy status się zmienił zamiast prognozy pozostałego czasu?</string>
+  <string name="pref_notify_status_duration_help" formatted="false">Włącz to ustawienie, jeśli wolisz główne powiadomienie pokazujące czas od zmiany statusu (np. \"Odłączony przez 5 godzin\"), a nie szacunku czasu pozostałego. Obie informacje są dostępne z głównego okna.</string>
+  <string name="pref_cat_temperature_unit" formatted="false">Jednostka temperatury</string>
+  <string name="pref_convert_to_fahrenheit" formatted="false">Konwertuj na Fahrenheita</string>
+  <string name="pref_convert_to_fahrenheit_help" formatted="false">Android raportuje temperaturę baterii w stopniach Celcjusza. Jeżeli wolisz stopnie Fahrenheita, to zaznacz tą opcję a aplikacja wykona konwersję.</string>
+  <string name="pref_cat_autostart" formatted="false">Autostart</string>
+  <string name="pref_autostart_at_boot" formatted="false">Startuj razem z telefonem</string>
+  <string name="pref_autostart_at_boot_summary" formatted="false">Startuj aplikację gdy telefon zostanie uruchomiony:</string>
+  <string name="pref_autostart_at_boot_help" formatted="false">Kontroluje, kiedy Battery Indicator startuje automatycznie przy uruchomieniu urządzenia.\n\nOpcja \"Przed wyłączeniem\" działa jeżeli ostatnio włączałeś/wyłączałeś ręcznie Battery Indicator. Więc jeżeli wyłączyłeś Battery Indicator przez np. menedżer procesów, Battery Indicator nie wie czy zatrzymałeś go i czy nadal ma startować przy uruchomieniu urządzenia.</string>
+  <string name="lang_system_selected" formatted="false">Wybrane systemowo</string>
+  <string name="pref_cat_language" formatted="false">Język</string>
+  <string name="pref_language_override" formatted="false">Wymuś język</string>
+  <string name="pref_language_override_summary" formatted="false">Wybierz język</string>
+  <string name="pref_language_override_help" formatted="false">Jeżeli tłumaczenie w twoim języku jest nieskończone lub niedokładne i chciałbyś zmienić na prawdopodobnie lepsze, możesz to zrobić tutaj.</string>
+  <string name="pref_cat_plugin_settings" formatted="false">Ustawienia dodatków</string>
+  <string name="pref_plugin_settings" formatted="false">Ustawienia dodatków</string>
+  <string name="pref_plugin_settings_summary" formatted="false">Zmień ustawienia dla tego dodatku</string>
+  <string name="pref_cat_color" formatted="false">Kolor ikony</string>
+  <string name="pref_cat_color_help" formatted="false">Aby zmniejszyć miejsce jakie zajmuje program, ustawiłem limit kolorów. W chwili pisania czerwony kolor oznacza 30%, bursztynowy 50% a zielony 20%. Myślę, że jest to racjonalne ustawienie i powinno działać dla 99% użytkowników.\n\nAby dać maksimum kontroli, kolory mogą być zmieniane niezależnie.</string>
+  <string name="pref_color_preview" formatted="false">Podgląd koloru</string>
+  <string name="pref_color_preview_help" formatted="false">Podgląd koloru pomaga określić, czy wybrany kolor pasuje.\n\nNie istnieje to w trybie 10% gdyż byłoby to bez sensu.</string>
+  <string name="pref_red" formatted="false">Użyj czerwonej ikony</string>
+  <string name="pref_red_summary" formatted="false">Użyj czerwonej ikony gdy poziom baterii jest niski?</string>
+  <string name="pref_red_help" formatted="false">Określa, czy użyć czerwonej ikony, gdy poziom baterii spadnie poniżej określonej wartości.</string>
+  <string name="pref_red_thresh" formatted="false">Poziom czerwonej ikony</string>
+  <string name="pref_red_thresh_summary" formatted="false">Czerwona ikona gdy poziom poniżej:</string>
+  <string name="pref_red_thresh_summary10" formatted="false">Czerwona ikona gdy poziom poniżej:</string>
+  <string name="pref_red_thresh_help" formatted="false">Określa przy jakim poziomie kolor zmienia się na czerwony(albo <i>na</i>, w trybie 10%).\n\nW trybie 10% rzeczy działają trochę inaczej, ale to samo się wyjaśnia.</string>
+  <string name="pref_amber" formatted="false">Użyj pomarańczowej ikony</string>
+  <string name="pref_amber_summary" formatted="false">Czy użyć pomarańczowej ikony, gdy poziom baterii jest średni?</string>
+  <string name="pref_amber_help" formatted="false">Określa, czy użyć pomarańczowej ikony, gdy poziom baterii spadnie poniżej określonej wartości.</string>
+  <string name="pref_amber_thresh" formatted="false">Poziom pomarańczowej ikony</string>
+  <string name="pref_amber_thresh_summary" formatted="false">Czerwona ikona gdy poziom poniżej:</string>
+  <string name="pref_amber_thresh_summary10" formatted="false">Czerwona ikona gdy poziom poniżej:</string>
+  <string name="pref_amber_thresh_help" formatted="false">Określa przy jakim poziomie kolor zmienia się na bursztynowy (albo <i>na</i>, w trybie 10%).\n\nW trybie 10% rzeczy działają trochę inaczej, ale to samo się wyjaśnia.</string>
+  <string name="pref_green" formatted="false">Użyj zielonej ikony</string>
+  <string name="pref_green_summary" formatted="false">Czy użyć zielonej ikony, gdy poziom baterii jest wysoki?</string>
+  <string name="pref_green_help" formatted="false">Określa, czy użyć zielonej ikony, gdy poziom baterii jest powyżej określonej wartości.</string>
+  <string name="pref_green_thresh" formatted="false">Poziom zielonej ikony</string>
+  <string name="pref_green_thresh_summary" formatted="false">Czerwona ikona gdy poziom powyżej:</string>
+  <string name="pref_green_thresh_help" formatted="false">Określa przy jakim poziomie kolor zmienia się na zielony (albo <i>na</i>, w trybie 10%).\n\nW trybie 10% rzeczy działają trochę inaczej, ale to samo się wyjaśnia.</string>
+  <string name="pref_cat_device_specific" formatted="false">Ustawienia specyficzne dla urządzenia</string>
+  <string name="pref_ten_percent_mode" formatted="false">Tryb 10%</string>
+  <string name="pref_ten_percent_mode_summary" formatted="false">Przeczytaj najpierw pomoc!</string>
+  <string name="pref_ten_percent_mode_help" formatted="false"><b>Pamiętaj:</b> Zaznaczenie lub nie skasuje ustawienia kolorów!\n\nTa opcja czyści ustawienia kolorów ikony dla urządzeń wskazujących poziom ci 10% (by miało to sens). W nawiązaniu do wpisów użytkowników urządzeń:\n\n• Motorola Droid (original)\n• Motorola Droid X\n• Motorola Droid 2\n• Motorola Defy\n• Samsung Moment\n\nJak wiadomo inne urządzenia pokazujące poziom co 1% <i>nie powinni</i> tego włączać.</string>
+  <string name="alarms_overview" formatted="false">Alarmy</string>
+  <string name="alarms_overview_help" formatted="false">Tutaj możesz dodawać nowe alarmy, szybko włączać lub wyłączać już istniejące albo je usuwać.\n\nAby dodać alarm wciśnij \"Dodaj alarm\" — to utworzy nowy alarm i zabierze do ustawień, gdzie możesz kontrolować ustawienia dla nowego alarmu. Zobacz pomoc dla tej strony po więcej szczegółow.\n\nPoniżej przycisku \"Dodaj alarm\" jest lista wszystkich alarmów, które już stworzyłeś.\n\n• Aby edytować istniejący alarm, kliknij na niego.\n• Aby usunąć alarm, naciśnij i przytrzymaj go, a następnie wybierz \"Usuń alarm\".\n• Aby włączyć/wyłączyć alarm, naciśnij ikonę budzika po lewej obok tekstu alarmu.</string>
+  <string name="pref_alarm_enabled" formatted="false">Włącz alarm</string>
+  <string name="pref_alarm_enabled_help" formatted="false">Jeżeli chcesz wyłączyć alarm tymczasowo, bez tworzenia go ponownie od nowa, możesz to zrobić tutaj lub na głównej stronie z alarmami.</string>
+  <string name="pref_cat_alarm_conditions" formatted="false">Warunki alarmu</string>
+  <string name="pref_cat_alarm_conditions_help" formatted="false">Tutaj możesz ustawić warunki uruchomienia alarmu.</string>
+  <string name="pref_alarm_type" formatted="false">Typ alarmu</string>
+  <string name="pref_alarm_type_summary" formatted="false">Włącz alarm, gdy bateria:</string>
+  <string name="pref_alarm_type_help" formatted="false">W tej chwili możesz wybierać pomiędzy pięcioma różnymi typami alarmów.\n\nAlarm w \"Pełni naładowany\" powiadomi Cię kiedy stan baterii zmieni się z \"Ładowania\" na \"W pełni naładowany\".\n\nPrzed ustaleniem alarmu poziomu naładowania i temperatury należy ustawić przedział w jakim ten alarm obowiązuje.\n\nAlarm \"Spadek zdrowia\" powiadomi Cię, jeżeli system zmieni stan baterii z \"Nieznany\" lub \"Zdrowy\" na coś innego.</string>
+  <string name="pref_alarm_threshold" formatted="false">Poziom</string>
+  <string name="alarm_pref_not_used" formatted="false">Nie używane przez ten typ alarmu</string>
+  <string name="pref_alarm_threshold_summary" formatted="false">Poziom alarmu:</string>
+  <string name="pref_alarm_threshold_help" formatted="false">Dla ładowania i temperatury alarmów, należy ustawić poziom temperatury lub ładowania, który wywoła alarm.</string>
+  <string name="pref_cat_notification_settings" formatted="false">Ustawienia powiadomień</string>
+  <string name="pref_cat_notification_settings_help" formatted="false">Tu możesz kontrolować różne aspekty powiadomień alarmowych, które są tworzone by powiadamiać kiedy alarm zostanie wyzwolony.</string>
+  <string name="pref_alarm_ringtone" formatted="false">Dzwonek</string>
+  <string name="pref_alarm_ringtone_help" formatted="false">Tutaj można kontrolować, który dźwięk odtwarzany będzie w momencie alarmu. Wybierz \"Wyciszony\", jeśli nie chcesz odtwarzać dźwięku.</string>
+  <string name="silent" formatted="false">Wyciszony</string>
+  <string name="pref_alarm_vibrate" formatted="false">Wibracja</string>
+  <string name="pref_alarm_vibrate_help" formatted="false">Jeśli wszystko pójdzie dobrze, ustawienie tej opcji sprawi, że urządzenie będzie wibrować podczas alarmu, chyba że urządzenie jest w trybie wyciszonym, chyba że urządzenie skonfigurować w wibracje nawet w trybie cichym. Innymi słowy, należy zrobić to, czego się spodziewać. Proszę napisz do mnie, jeśli coś pójdzie źle.</string>
+  <string name="pref_alarm_lights" formatted="false">Flash</string>
+  <string name="pref_alarm_lights_help" formatted="false">Określa, czy powiadomienie powinno włączyć światła urządzenia domyślnie. Na ogół miga dioda LED lub trackball. Może być taka sytuacja, że system Android poprosi o zezwolenie na użycie światła urządzenia, ale nie zawsze tak musi być.</string>
+  <string name="boot_pref_always" formatted="false">Zawsze</string>
+  <string name="boot_pref_never" formatted="false">Nigdy</string>
+  <string name="boot_pref_if_running" formatted="false">Jeżeli uruchomiona przy wyłączaniu</string>
+  <string name="status_dur_always" formatted="false">Zawsze</string>
+  <string name="status_dur_after_1h" formatted="false">Po 1 godzinie</string>
+  <string name="status_dur_after_2h" formatted="false">Po 2 godzinach</string>
+  <string name="status_dur_after_3h" formatted="false">Po 3 godzinach</string>
+  <string name="status_dur_after_6h" formatted="false">Po 6 godzinach</string>
+  <string name="status_dur_after_12h" formatted="false">Po 12 godzinach</string>
+  <string name="age_1_day" formatted="false">1 dzień</string>
+  <string name="age_2_days" formatted="false">2 dni</string>
+  <string name="age_4_days" formatted="false">4 dni</string>
+  <string name="age_1_week" formatted="false">1 tydzień</string>
+  <string name="age_2_weeks" formatted="false">2 tygodnie</string>
+  <string name="age_3_weeks" formatted="false">3 tygodnie</string>
+  <string name="age_4_weeks" formatted="false">4 tygodnie</string>
+  <string name="notification_priority_max" formatted="false">Maksymalny</string>
+  <string name="notification_priority_high" formatted="false">Wysoki</string>
+  <string name="notification_priority_default" formatted="false">Domyślny</string>
+  <string name="notification_priority_low" formatted="false">Niski</string>
+  <string name="notification_priority_min" formatted="false">Minimalny</string>
+  <string name="icon_set_classic" formatted="false">Klasyczny</string>
+  <string name="icon_set_plain" formatted="false">Zwykły numer</string>
+  <string name="icon_set_smaller" formatted="false">Mniejszy numer</string>
+  <plurals name="n_log_items">
+    <item quantity="one">%d Log</item>
+    <item quantity="other">%d Logów</item>
+  </plurals>
+  <plurals name="n_hours_long">
+    <item quantity="one">"%d godzina, "</item>
+    <item quantity="other">"%d godzin, "</item>
+  </plurals>
+  <plurals name="n_minutes_long">
+    <item quantity="one">%d minuta</item>
+    <item quantity="other">%d minuty</item>
+  </plurals>
+  <plurals name="n_hours_medium">
+    <item quantity="one">"%d godz, "</item>
+    <item quantity="other">"%d godz, "</item>
+  </plurals>
+  <plurals name="n_minutes_medium">
+    <item quantity="one">%d min.</item>
+    <item quantity="other">%d min.</item>
+  </plurals>
+  <plurals name="n_hours_short">
+    <item quantity="other">"%dh "</item>
+  </plurals>
+  <plurals name="n_minutes_short">
+    <item quantity="other">%dm</item>
+  </plurals>
+  <plurals name="n_days">
+    <item quantity="one">"%d dzień, "</item>
+    <item quantity="other">"%d dni, "</item>
+  </plurals>
+  <plurals name="n_hours">
+    <item quantity="one">%d godzina</item>
+    <item quantity="other">%d godzin</item>
+  </plurals>
+  <plurals name="for_n_hours">
+    <item quantity="one">Przez %d godzinę</item>
+    <item quantity="other">Przez %d godzin</item>
+  </plurals>
+</resources>

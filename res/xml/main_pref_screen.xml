@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <Preference
+     android:title="@string/pref_hint"
+     android:layout="@layout/hint"
+     android:enabled="false"
+     android:selectable="false"
+  />
+
+  <Preference
+     android:layout="@layout/divider_after_hint"
+     android:enabled="false"
+     android:selectable="false"
+  />
+
+  <Preference
+
+     android:key="notification_settings"
+     android:title="@string/notification_settings"
+     android:summary="@string/notification_settings_summary"
+  />
+
+  <Preference
+     android:key="status_bar_icon_settings"
+     android:title="@string/status_bar_icon_settings"
+     android:summary="@string/status_bar_icon_settings_summary"
+  />
+
+  <!--<Preference
+
+     android:key="current_hack_settings"
+     android:title="@string/current_hack_settings"
+     android:summary="@string/current_hack_settings_summary"
+  />
+
+  <Preference
+     android:key="other_settings"
+     android:title="@string/other_settings"
+  />-->
+</PreferenceScreen>

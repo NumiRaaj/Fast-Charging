@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_full_name" formatted="false">电量指示器专业版</string>
+  <string name="app_launcher_name" formatted="false">电量指示器</string>
+  <string name="settings_activity_subtitle" formatted="false">设置</string>
+  <string name="help_activity_subtitle" formatted="false">帮助</string>
+  <string name="log_view_activity_subtitle" formatted="false">日志</string>
+  <string name="app_full_name_free" formatted="false">电量指示器</string>
+  <string name="battery_use_b" formatted="false">查看电量使用情况</string>
+  <string name="upgrade_donate_b" formatted="false">升级/捐助...</string>
+  <string name="confirm_disable_hint" formatted="false">提示：可在“设置项”中关闭此提示信息。</string>
+  <string name="yes" formatted="false">确认</string>
+  <string name="cancel" formatted="false">取消</string>
+  <string name="confirm_close" formatted="false">确认退出？</string>
+  <string name="confirm_close_hint" formatted="false">电量指示器将完全退出，通知栏电量指示图标将不再显示。 如果您想让本程序后台运行，可以单击手机“返回”键关闭主窗口。</string>
+  <string name="confirm_clear_logs" formatted="false">确认清理所有日志？</string>
+  <string name="confirm_ten_percent_enable" formatted="false">确认开启10%模式？</string>
+  <string name="confirm_ten_percent_disable" formatted="false">确认开启10%模式</string>
+  <string name="okay" formatted="false">完成</string>
+  <string name="none" formatted="false">无</string>
+  <string name="menu_settings" formatted="false">设置项</string>
+  <string name="menu_close" formatted="false">关闭</string>
+  <string name="menu_help" formatted="false">帮助</string>
+  <string name="menu_clear" formatted="false">清理</string>
+  <string name="menu_reverse" formatted="false">反向排序</string>
+  <string name="menu_export" formatted="false">导出至CSV</string>
+  <string name="menu_delete_alarm" formatted="false">删除</string>
+  <string name="menu_get_plugins" formatted="false">获取插件</string>
+  <string name="percent_symbol" formatted="false">%</string>
+  <string name="degree_symbol" formatted="false">°</string>
+  <string name="fahrenheit" formatted="false">华氏温度</string>
+  <string name="fahrenheit_symbol" formatted="false">F</string>
+  <string name="celsius" formatted="false">摄氏温度</string>
+  <string name="celsius_symbol" formatted="false">C</string>
+  <string name="volt_symbol" formatted="false">V</string>
+  <string name="fully_charged_in" formatted="false">完全充满剩余时间：</string>
+  <string name="light_usage" formatted="false">省电使用剩余时间：</string>
+  <string name="normal_usage" formatted="false">正常使用剩余时间：</string>
+  <string name="heavy_usage" formatted="false">频繁使用剩余时间：</string>
+  <string name="constant_usage" formatted="false">持续使用剩余时间：</string>
+  <string name="press_back_to_leave" formatted="false">单击“返回”键退出。</string>
+  <string name="press_menu_for_more" formatted="false">单击“菜单”查看更多选项。</string>
+  <string name="inaccessible_storage" formatted="false">SD卡无法访问。</string>
+  <string name="inaccessible_w_reason" formatted="false">SD卡无法访问：</string>
+  <string name="read_only_storage" formatted="false">SD卡已设置为“只读”模式。</string>
+  <string name="file_written" formatted="false">文件已在SD卡根目录成功创建。</string>
+  <string name="status_unplugged" formatted="false">拔下电源</string>
+  <string name="status_unknown" formatted="false">未知</string>
+  <string name="status_charging" formatted="false">充电中</string>
+  <string name="status_discharging" formatted="false">放电中</string>
+  <string name="status_not_charging" formatted="false">未充电</string>
+  <string name="status_fully_charged" formatted="false">电池充满</string>
+  <string name="status_plugged_in" formatted="false">插入电源</string>
+  <string name="health_unknown" formatted="false">未知</string>
+  <string name="health_good" formatted="false">正常</string>
+  <string name="health_overheat" formatted="false">过热</string>
+  <string name="health_dead" formatted="false">损坏</string>
+  <string name="health_overvoltage" formatted="false">超压</string>
+  <string name="health_failure" formatted="false">错误</string>
+  <string name="health_cold" formatted="false">Cold</string>
+  <string name="plugged_unplugged" formatted="false">Unplugged</string>
+  <string name="plugged_ac" formatted="false">(AC)</string>
+  <string name="plugged_usb" formatted="false">(USB)</string>
+  <string name="plugged_unknown" formatted="false">(?)</string>
+  <string name="plugged_wireless" formatted="false">(WL)</string>
+  <string name="alarm_fully_charged" formatted="false">电池已充满！</string>
+  <string name="alarm_charge_drops" formatted="false">电池电量低于</string>
+  <string name="alarm_charge_rises" formatted="false">电池电量高于</string>
+  <string name="alarm_temp_rises" formatted="false">电池温度高于</string>
+  <string name="alarm_text" formatted="false">点击编辑此警报器</string>
+  <string name="logs_empty" formatted="false">日志记录为空</string>
+  <string name="discharging_from" formatted="false">放电起始电量</string>
+  <string name="charging_from" formatted="false">充电起始电量</string>
+  <string name="fully_charged" formatted="false">完全充满</string>
+  <string name="since" formatted="false">开始于</string>
+  <string name="currently_using" formatted="false">当前使用</string>
+  <string name="currently_set_to" formatted="false">"当前设置为"</string>
+  <string name="currently_disabled" formatted="false">当前不可用</string>
+  <string name="help_cat_version" formatted="false">版本</string>
+  <string name="help_cat_changelog" formatted="false">更新日志</string>
+  <string name="help_cat_no_warranty" formatted="false">免责申明</string>
+  <string name="help_no_warranty" formatted="false">本软件旨在提高系统的易用性，并<b>无任何承担责任的义务</b>。<b>不对使用软件实现特殊功能的实用性做任何承诺</b>。 软件开发者将尽其所能最求软件的正常工作及流畅运行，但对任何情况下可能导致的使用者的不适或设备损坏不承担任何责任。</string>
+  <string name="help_cat_acknowledgments" formatted="false">声明</string>
+  <string name="help_acknowledgments" formatted="false">由于暂无慷慨的翻译者协助，本程序仅提供英文版本，非常感谢您的支持！ 得益于Google及其他开源项目，本软件功能得以实现。 软件图标（可见于电子市场软件主页右上角）的设计灵感来源于<a href="http://www.oxygen-icons.org"> Oxygen图标主题</a>并在<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Common Attribution-ShareAlike 3.0 License</a>的规范下有限使用。</string>
+  <string name="help_cat_translations" formatted="false">多语言化</string>
+  <string name="help_subcat_translators" formatted="false">翻译志愿者名单</string>
+  <string name="help_cat_contact" formatted="false">联系方式</string>
+  <string name="pref_hint" formatted="false"><b>提示：</b>单击“菜单”获取帮助。</string>
+  <string name="settings_overview" formatted="false">预览</string>
+  <string name="settings_overview_help" formatted="false">设置项包括如下所述的三个独立页面。各页面的帮助信息独立显示，在“菜单”-“帮助”内容中可获取当前页面的帮助信息。</string>
+  <string name="alarm_settings_subtitle" formatted="false">警报器设置</string>
+  <string name="alarm_settings" formatted="false">警报器</string>
+  <string name="alarm_settings_summary" formatted="false">控制电池信息通知</string>
+  <string name="alarm_settings_help" formatted="false">您可以让电量指示器在电池达到某个状态时通知您(例如:电池充满，或者电量低于20%)</string>
+  <string name="other_settings" formatted="false">其他设置</string>
+  <string name="other_settings_help" formatted="false">此页面包含其他的设置项，包括日志功能、屏幕锁功能、温度单位、自启动方式等。</string>
+  <string name="pref_cat_more_settings_in_pro" formatted="false">专业版的更多设置项</string>
+  <string name="pref_please_upgrade" formatted="false">专业版包含了以红色、黄色及绿色图标提示剩余电量等级、电池状态记录、自动/手动关闭锁屏、充电/放电剩余时间预估等多种高级功能。</string>
+  <string name="add_alarm" formatted="false">添加警报器</string>
+  <string name="pref_cat_logging" formatted="false">日志记录</string>
+  <string name="pref_enable_logging" formatted="false">启用日志记录功能</string>
+  <string name="pref_enable_logging_summary" formatted="false">确认记录电池状态信息？</string>
+  <string name="pref_enable_logging_help" formatted="false">若启用本功能，电量指示器将以日志方式记录电池状态信息（例如拔下电源或电池充满）。您可通过单击“菜单”键和“日志”按钮查看日志记录。</string>
+  <string name="pref_max_log_age" formatted="false">日志记录有效期</string>
+  <string name="pref_max_log_age_summary" formatted="false">日志记录有效期限：</string>
+  <string name="pref_max_log_age_help" formatted="false">若启用本功能，过期日志将在手机充电时被清除。</string>
+  <string name="pref_cat_temperature_unit" formatted="false">温度显示单位</string>
+  <string name="pref_convert_to_fahrenheit" formatted="false">确认切换到华氏单位？</string>
+  <string name="pref_convert_to_fahrenheit_help" formatted="false">Android系统以摄氏单位报告电池温度信息。若您想使温度信息以华氏单位显示，请勾选此项。</string>
+  <string name="pref_cat_autostart" formatted="false">自启动</string>
+  <string name="pref_autostart_at_boot" formatted="false">开机自启动方式</string>
+  <string name="pref_autostart_at_boot_summary" formatted="false">确认允许电量指示器开机时自启动？</string>
+  <string name="pref_autostart_at_boot_help" formatted="false">设置是否允许电量指示器在开机时自启动。 ”关机前运行中”选项仅在手动关闭电量指示器时有效。若您使用其他方式，如使用任务杀手进行关闭，则本程序无法确认是否由您关闭，选择该方式后仍会在开机时自启动。</string>
+  <string name="lang_system_selected" formatted="false">系统选择</string>
+  <string name="pref_cat_language" formatted="false">语言</string>
+  <string name="pref_language_override_summary" formatted="false">选择语言:</string>
+  <string name="pref_cat_plugin_settings" formatted="false">插件设置</string>
+  <string name="pref_plugin_settings" formatted="false">插件设置</string>
+  <string name="pref_plugin_settings_summary" formatted="false">修改此插件的设置</string>
+  <string name="pref_cat_color" formatted="false">图标颜色</string>
+  <string name="pref_cat_color_help" formatted="false">为保证电量指示器的二进制数据包尺寸最小化，对图标颜色做出如下限制：红色图标标示最大值为30%剩余电量，黄色图标标示最大值为50%剩余电量，绿色图标标示最小值为20%剩余电量。开发者相信如此的限制能满足99%的用户需求。 为保证用户能够最大限度的自定义该软件，各色彩等级可单独的开启或关闭。最高可实现四级色彩显示，绿色图标表示电量充足，接着以灰色、黄色和红色显示剩余电量等级。大部分用户会将黄色标示上限及绿色标示下限设置为相同值，这样将跳过灰色标示。</string>
+  <string name="pref_color_preview" formatted="false">色彩预览</string>
+  <string name="pref_color_preview_help" formatted="false">色彩预览功能可将您的设置效果及时以视觉方式呈现。 该功能在10%步进模式下无实际意义，将不可用。</string>
+  <string name="pref_red" formatted="false">使用红色图标</string>
+  <string name="pref_red_summary" formatted="false">确认在电量低时使用红色图标？</string>
+  <string name="pref_red_help" formatted="false">设置是否在剩余电量低于设置阀值时使用红色图标。</string>
+  <string name="pref_red_thresh" formatted="false">红色图标阀值</string>
+  <string name="pref_red_thresh_summary" formatted="false">剩余电量低于多少百分比时使用红色图标？</string>
+  <string name="pref_red_thresh_summary10" formatted="false">剩余电量等于或低于多少百分比时使用红色图标？</string>
+  <string name="pref_red_thresh_help" formatted="false">设置剩余电量低于（10%步进模式中为“等于或低于”）该设置值时使用红色图标。 该选项能在可选范围内（5%步进）提供红色图标阀值设置值选项。 在10%步进模式下，该设置项内容可能略有不同。</string>
+  <string name="pref_amber" formatted="false">使用黄色图标</string>
+  <string name="pref_amber_summary" formatted="false">确认在电量较少时使用黄色图标？</string>
+  <string name="pref_amber_help" formatted="false">设置是否在剩余电量低于设置阀值时使用黄色图标。</string>
+  <string name="pref_amber_thresh" formatted="false">黄色图标阀值</string>
+  <string name="pref_amber_thresh_summary" formatted="false">剩余电量低于多少百分比时使用黄色图标？</string>
+  <string name="pref_amber_thresh_summary10" formatted="false">剩余电量等于或低于多少百分比时使用黄色图标？</string>
+  <string name="pref_amber_thresh_help" formatted="false">设置剩余电量低于（10%步进模式中为“等于或低于”）该设置值时使用黄色图标。 该选项能在可选范围内（5%步进）提供黄色图标阀值设置值选项。设置值下限为红色图标（若已开启）设置阀值+5%，例如红色图标阀值为15%，则该设置项选择下限为20%。\n在10%步进模式下，该设置项内容可能略有不同。</string>
+  <string name="pref_green" formatted="false">使用绿色图标</string>
+  <string name="pref_green_summary" formatted="false">确认在电量充足时使用绿色图标？</string>
+  <string name="pref_green_help" formatted="false">设置是否在剩余电量高于设置阀值时使用绿色图标。</string>
+  <string name="pref_green_thresh" formatted="false">绿色图标阀值</string>
+  <string name="pref_green_thresh_summary" formatted="false">剩余电量等于或高于多少百分比时使用绿色图标？</string>
+  <string name="pref_green_thresh_help" formatted="false">设置剩余电量等于或高于该设置值时使用绿色图标。 该选项能在可选范围内（5%步进）提供绿色图标阀值设置值选项。设置值下限为红色或黄色图标最大阀值，例如黄色图标阀值为40%，则设置项选择下限为40%。\n在10%步进模式下，该设置项内容可能略有不同。</string>
+  <string name="pref_cat_device_specific" formatted="false">特殊设备设置</string>
+  <string name="pref_ten_percent_mode" formatted="false">10%步进模式</string>
+  <string name="pref_ten_percent_mode_summary" formatted="false">请先阅读帮助信息！</string>
+  <string name="pref_ten_percent_mode_help" formatted="false"><b>注意：</b> 改动该选项设置状态将重置图标颜色设置内容！ 该选项将清除图标色彩设置内容以保证10%步进类型设备显示正常。根据用户反馈，该类设备包括以下型号： • Motorola Droid （最初版本） • Motorola Droid X • Motorola Droid 2 • Motorola Defy • Samsung Moment 除以上型号之外，其余设备均为1%步进报告类型，因此均<i>不用</i>开启此项功能。</string>
+  <string name="alarms_overview" formatted="false">概述</string>
+  <string name="alarms_overview_help" formatted="false">在本页面您可以添加一个新的警报器，以及快速启用、禁用或删除一个已存在的警报器。\n\n按“添加警报器”按钮可以创建一个新的警报器，之后您将进入设置页面去设置新建的警报器。\n\n在“添加警报器”按钮的下方是您已创建的所有警报器的列表\n\n·点击警报器即可设置 ·长按可以删除(也可以在设置页面中按菜单键选择删除。) ·点击警报器左边的图标可以禁用或启用警报器(也可以在设置页面中选择。)</string>
+  <string name="pref_alarm_enabled" formatted="false">启用警报器</string>
+  <string name="pref_alarm_threshold" formatted="false">阀值</string>
+  <string name="alarm_pref_not_used" formatted="false">此警报器类型无法使用</string>
+  <string name="pref_alarm_threshold_summary" formatted="false">警报阀值</string>
+  <string name="pref_cat_notification_settings" formatted="false">通知设置</string>
+  <string name="pref_alarm_ringtone" formatted="false">铃声</string>
+  <string name="silent" formatted="false">静音</string>
+  <string name="pref_alarm_vibrate" formatted="false">震动</string>
+  <string name="pref_alarm_lights" formatted="false">闪光</string>
+  <string name="boot_pref_always" formatted="false">始终</string>
+  <string name="boot_pref_never" formatted="false">从不</string>
+  <string name="boot_pref_if_running" formatted="false">关机时运行</string>
+  <string name="status_dur_always" formatted="false">始终</string>
+  <string name="status_dur_after_1h" formatted="false">一小时后</string>
+  <string name="status_dur_after_2h" formatted="false">两小时后</string>
+  <string name="status_dur_after_3h" formatted="false">三小时后</string>
+  <string name="status_dur_after_6h" formatted="false">六小时后</string>
+  <string name="status_dur_after_12h" formatted="false">十二小时后</string>
+  <string name="age_1_day" formatted="false">一天</string>
+  <string name="age_2_days" formatted="false">两天</string>
+  <string name="age_4_days" formatted="false">四天</string>
+  <string name="age_1_week" formatted="false">一周</string>
+  <string name="age_2_weeks" formatted="false">二周</string>
+  <string name="age_3_weeks" formatted="false">三周</string>
+  <string name="age_4_weeks" formatted="false">四周</string>
+  <plurals name="n_log_items">
+    <item quantity="one">%d项日志记录</item>
+    <item quantity="other">%d项日志记录</item>
+  </plurals>
+  <plurals name="for_n_hours">
+    <item quantity="one">已%d小时</item>
+    <item quantity="other">已%d小时</item>
+  </plurals>
+</resources>

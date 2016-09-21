@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stylovid.fastbattery"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:sharedUserId="com.stylovid.fastbattery"
+    android:versionCode="1"
+    android:versionName="1.0"
+>
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!-- Permissions now considered "normal", automatically granted on API 23+ -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- Permissions now considered "dangerous", which require user permission on API 23+ -->
+    <!--uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /--><!-- Implicitly granted with WRITE -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+  <application
+      android:name="android.support.multidex.MultiDexApplication"
+      android:label="@string/app_full_name"
+      android:icon="@mipmap/ic_launcher"
+      android:hardwareAccelerated="true"
+      android:process="com.stylovid.fastbattery"
+      android:allowBackup="false"
+      android:resizeableActivity="true"
+
+  >
+    <!--
+        Temporarily put these two lines in <application> above to enable debugging of release build:
+
+        android:debuggable="true"
+        tools:ignore="HardcodedDebugMode"
+    -->
+    <activity
+        android:screenOrientation="portrait"
+        android:name=".BatteryInfoActivity"
+        android:label="@string/app_full_name"
+        android:theme="@style/bi_main_theme"
+        android:stateNotNeeded="true"
+        android:launchMode="singleTask"
+    >
+      <intent-filter android:label="@string/app_launcher_name">
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </activity>
+
+    <activity
+        android:screenOrientation="portrait"
+        android:name=".SettingsActivity"
+        android:theme="@style/bi_settings_theme"
+        android:excludeFromRecents="true"
+    />
+
+    <activity
+        android:screenOrientation="portrait"
+        android:name=".AlarmEditActivity"
+        android:theme="@style/bi_settings_theme"
+        android:excludeFromRecents="true"
+    />
+
+    <activity
+        android:screenOrientation="portrait"
+        android:name=".SettingsHelpActivity"
+        android:theme="@style/bi_help_theme"
+        android:stateNotNeeded="true"
+        android:excludeFromRecents="true"
+    />
+
+    <activity
+        android:screenOrientation="portrait"
+        android:name=".HelpActivity"
+        android:theme="@style/bi_help_theme"
+        android:stateNotNeeded="true"
+        android:excludeFromRecents="true"
+    />
+
+    <service
+
+        android:name=".BatteryInfoService"
+        android:process="com.stylovid.fastbattery.BIS"
+        android:icon="@drawable/battery"
+    />
+
+    <receiver
+
+        android:name=".BootCompletedReceiver"
+        android:enabled="true"
+        android:exported="true"
+        android:process="com.stylovid.fastbattery.BIS"
+    >
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PACKAGE_REPLACED" />
+        <data android:scheme="package" android:path="com.stylovid.fastbattery" />
+      </intent-filter>
+    </receiver>
+
+    <receiver
+        android:name="BatteryInfoAppWidgetProvider"
+        android:enabled="true"
+        android:exported="true"
+        android:process="com.stylovid.fastbattery.BIS"
+        android:label="@string/circle_widget"
+    >
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+      </intent-filter>
+      <meta-data
+          android:name="android.appwidget.provider"
+          android:resource="@xml/circle_app_widget_info"
+      />
+    </receiver>
+
+    <receiver
+        android:name="FullAppWidgetProvider"
+        android:enabled="true"
+        android:exported="true"
+        android:process="com.stylovid.fastbattery.BIS"
+        android:label="@string/full_widget"
+    >
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+      </intent-filter>
+      <meta-data
+          android:name="android.appwidget.provider"
+          android:resource="@xml/full_app_widget_info"
+      />
+    </receiver>
+  </application>
+
+
+
+  <supports-screens
+      android:smallScreens="true"
+      android:normalScreens="true"
+      android:largeScreens="true"
+      android:anyDensity="true"
+  />
+
+
+  <!--Include the AdActivity configChanges and theme. -->
+
+  <meta-data
+      android:name="com.google.android.gms.version"
+      android:value="@integer/google_play_services_version" />
+  <activity
+      android:name="com.google.android.gms.ads.AdActivity"
+      android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+      android:theme="@android:style/Theme.Translucent" />
+</manifest>

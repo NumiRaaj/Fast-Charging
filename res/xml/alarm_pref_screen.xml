@@ -1,0 +1,61 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <Preference
+     android:title="@string/pref_hint"
+     android:layout="@layout/hint"
+     android:enabled="false"
+     android:selectable="false"
+  />
+
+  <Preference
+     android:layout="@layout/divider_after_hint"
+     android:enabled="false"
+     android:selectable="false"
+  />
+
+  <CheckBoxPreference
+      android:key="enabled"
+      android:persistent="false"
+      android:title="@string/pref_alarm_enabled"
+  />
+
+  <PreferenceCategory android:title="@string/pref_cat_alarm_conditions">
+    <ListPreference
+        android:key="type"
+        android:persistent="false"
+        android:entries="@array/alarm_type_entries"
+        android:entryValues="@array/alarm_type_values"
+        android:dialogTitle="@string/pref_alarm_type_summary"
+        android:title="@string/pref_alarm_type"
+    />
+
+    <ListPreference
+        android:key="threshold"
+        android:persistent="false"
+        android:dialogTitle="@string/pref_alarm_threshold_summary"
+        android:title="@string/pref_alarm_threshold"
+    />
+  </PreferenceCategory>
+
+  <PreferenceCategory android:title="@string/pref_cat_notification_settings">
+    <com.stylovid.fastbattery.AlarmRingtonePreference
+        android:key="ringtone"
+        android:persistent="false"
+        android:ringtoneType="notification|alarm"
+        android:showDefault="true"
+        android:showSilent="true"
+        android:title="@string/pref_alarm_ringtone"
+    />
+
+    <CheckBoxPreference
+        android:key="vibrate"
+        android:persistent="false"
+        android:title="@string/pref_alarm_vibrate"
+    />
+
+    <CheckBoxPreference
+        android:key="lights"
+        android:persistent="false"
+        android:title="@string/pref_alarm_lights"
+    />
+  </PreferenceCategory>
+</PreferenceScreen>

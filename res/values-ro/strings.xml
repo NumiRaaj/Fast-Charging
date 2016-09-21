@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_full_name" formatted="false">BatteryBot Pro</string>
+  <string name="app_launcher_name" formatted="false">BatteryBot</string>
+  <string name="settings_activity_subtitle" formatted="false">Setari</string>
+  <string name="help_activity_subtitle" formatted="false">Ajutor</string>
+  <string name="log_view_activity_subtitle" formatted="false">Loguri</string>
+  <string name="app_full_name_free" formatted="false">BatteryBot</string>
+  <string name="battery_use_b" formatted="false">Vizualizeaza Utilizarea Bateriei</string>
+  <string name="upgrade_donate_b" formatted="false">Upgrade/Doneaza</string>
+  <string name="confirm_disable_hint" formatted="false">Sugestie: Dezactiveaza acest mesaj de confirmare din meniul setari...</string>
+  <string name="yes" formatted="false">Da</string>
+  <string name="cancel" formatted="false">Anuleaza</string>
+  <string name="confirm_close" formatted="false">Sigur inchideti?</string>
+  <string name="confirm_close_hint" formatted="false">Battery Indicator se va inchide complet. Informatiile despre baterie nu vor mai fi afisate in bara de stare a telefonului./n Daca doriti sa inchideti fereastra principala, pastrand afisarea informatiilor despre baterie, apasati Anuleaza si apoi butonul BACK al telefonului.</string>
+  <string name="confirm_clear_logs" formatted="false">Sigur stergeti toate logurile?</string>
+  <string name="confirm_ten_percent_enable" formatted="false">Sigur activati modul 10%?</string>
+  <string name="confirm_ten_percent_disable" formatted="false">Sigur dezactivati modul 10%</string>
+  <string name="confirm_ten_percent_hint" formatted="false">Avertisment: Schimbarea acestei setari (fie activarea fie dezactivarea ei) va reseta schema de culori.\nDaca aveti un Motorola Droid, Droid X, Droid 2, Defy, sau Samsung Moment, ar trebui sa activati aceasta setare imediat dupa prima instalare a aplicatiei si sa nu o modificati ulterior. Pentru toate celelalte dispozitive, din cate stim pana acum, aceasta setare nu ar trebui activata.</string>
+  <string name="okay" formatted="false">Okay</string>
+  <string name="none" formatted="false">Nimic/Gol</string>
+  <string name="tab_current_info" formatted="false">Informatie actuala</string>
+  <string name="tab_history" formatted="false">Istoric</string>
+  <string name="notification_until_charged" formatted="false">pana la incarcare completa</string>
+  <string name="notification_until_drained" formatted="false">ramas</string>
+  <string name="activity_until_charged" formatted="false">pana la incarcare completa</string>
+  <string name="activity_until_drained" formatted="false">pana la descarcare completa</string>
+  <string name="menu_settings" formatted="false">Setari</string>
+  <string name="menu_close" formatted="false">Inchide</string>
+  <string name="menu_help" formatted="false">Ajutor</string>
+  <string name="menu_rate_and_review" formatted="false">Acorda rating si review</string>
+  <string name="menu_clear" formatted="false">Sterge</string>
+  <string name="menu_reverse" formatted="false">Inverseaza ordinea</string>
+  <string name="menu_log_filter" formatted="false">Filtru</string>
+  <string name="menu_export" formatted="false">Exporta CSV</string>
+  <string name="menu_delete_alarm" formatted="false">Sterge Alarma</string>
+  <string name="menu_get_plugins" formatted="false">Mai multe Plug-in-uri</string>
+  <string name="percent_symbol" formatted="false">%</string>
+  <string name="degree_symbol" formatted="false">°</string>
+  <string name="fahrenheit" formatted="false">Fahrenheit</string>
+  <string name="fahrenheit_symbol" formatted="false">F</string>
+  <string name="celsius" formatted="false">Celsius</string>
+  <string name="celsius_symbol" formatted="false">C</string>
+  <string name="volt_symbol" formatted="false">V</string>
+  <string name="fully_charged_in" formatted="false">Incarcata Complet in:</string>
+  <string name="light_usage" formatted="false">Timp Ramas - Utilizare Usoara</string>
+  <string name="normal_usage" formatted="false">Timp Ramas - Utilizare Normala</string>
+  <string name="heavy_usage" formatted="false">Timp Ramas - Utilizare Intensiva</string>
+  <string name="constant_usage" formatted="false">Timp Ramas - Utilizare Constanta</string>
+  <string name="press_back_to_leave" formatted="false">Pentru iesire, apasa BACK/Inapoi</string>
+  <string name="press_menu_for_more" formatted="false">Pentru mai multe elemente/items apasa MENU</string>
+  <string name="inaccessible_storage" formatted="false">Cartela SD nu este accesibila</string>
+  <string name="inaccessible_w_reason" formatted="false">Cartela SD nu este accesibila</string>
+  <string name="read_only_storage" formatted="false">Cartela SD nu este protejata la scriere (Read Only)</string>
+  <string name="file_written" formatted="false">Fisier scris cu succes in radacina cartelei SD</string>
+  <string name="date" formatted="false">data</string>
+  <string name="time" formatted="false">ora</string>
+  <string name="status" formatted="false">stare</string>
+  <string name="charge" formatted="false">procentaj_incarcare</string>
+  <string name="temperature" formatted="false">grade_celsius</string>
+  <string name="voltage" formatted="false">volti</string>
+  <string name="status_unplugged" formatted="false">Deconectat</string>
+  <string name="status_unknown" formatted="false">Necunoscut</string>
+  <string name="status_charging" formatted="false">Se incarca</string>
+  <string name="status_discharging" formatted="false">Se descarca</string>
+  <string name="status_not_charging" formatted="false">Nu se incarca</string>
+  <string name="status_fully_charged" formatted="false">Incarcat complet</string>
+  <string name="status_plugged_in" formatted="false">Conectat</string>
+  <string name="health_unknown" formatted="false">Necunoscut</string>
+  <string name="health_good" formatted="false">Stare buna</string>
+  <string name="health_overheat" formatted="false">Supraincalzire</string>
+  <string name="health_dead" formatted="false">Mort</string>
+  <string name="health_overvoltage" formatted="false">Voltaj peste limita</string>
+  <string name="health_failure" formatted="false">Defectiune</string>
+  <string name="health_cold" formatted="false">Rece</string>
+  <string name="plugged_unplugged" formatted="false">Deconectat</string>
+  <string name="plugged_ac" formatted="false">(AC)</string>
+  <string name="plugged_usb" formatted="false">(USB)</string>
+  <string name="plugged_unknown" formatted="false">(?)</string>
+  <string name="plugged_wireless" formatted="false">Wireless</string>
+  <string name="alarm_type_fully_charged" formatted="false">Incarcat complet</string>
+  <string name="alarm_type_charge_drops" formatted="false">Cand incarcarea scade sub</string>
+  <string name="alarm_type_charge_rises" formatted="false">Cand incarcare urca peste</string>
+  <string name="alarm_fully_charged" formatted="false">Bateria este acum incarcata complet</string>
+  <string name="alarm_charge_drops" formatted="false">"Nivelul bateriei este sub "</string>
+  <string name="alarm_charge_rises" formatted="false">"Nivelul bateriei este peste "</string>
+  <string name="alarm_temp_rises" formatted="false">"Temperatura bateriei este peste "</string>
+  <string name="alarm_health_failure" formatted="false">Calitatea Bateriei este:</string>
+  <string name="alarm_text" formatted="false">Selecteaza pentru a edita alarmele.</string>
+  <string name="logs_empty" formatted="false">Nu sunt loguri/loguri goale</string>
+  <string name="discharging_from" formatted="false">Se descarca de la</string>
+  <string name="charging_from" formatted="false">Se incarca de la</string>
+  <string name="fully_charged" formatted="false">Incarcata Complet</string>
+  <string name="since" formatted="false">De la</string>
+  <string name="currently_using" formatted="false">Folosire curenta</string>
+  <string name="currently_set_to" formatted="false">"Acum setat la: "</string>
+  <string name="currently_disabled" formatted="false">Dezactivat Acum</string>
+  <string name="help_cat_version" formatted="false">Versiune</string>
+  <string name="help_cat_changelog" formatted="false">Jurnal Schimbari</string>
+  <string name="help_changelog" formatted="false">Consultati <a href="https://www.batterybot.info/changelog">lista schimbarilor online</a>.</string>
+  <string name="help_cat_no_warranty" formatted="false">Nu se ofera garantie</string>
+  <string name="help_cat_translations" formatted="false">Traduceri</string>
+  <string name="help_subcat_translators" formatted="false">Traducatori</string>
+  <string name="help_cat_contact" formatted="false">Contact</string>
+  <string name="settings_overview" formatted="false">Prezentare</string>
+</resources>
